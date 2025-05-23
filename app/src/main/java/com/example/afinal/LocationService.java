@@ -17,7 +17,6 @@ public class LocationService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        // اینجا می‌تونی کارهای پس‌زمینه رو انجام بدی
         return START_STICKY;
     }
 
